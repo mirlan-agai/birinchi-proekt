@@ -59,7 +59,7 @@ app.post('/login', (req, res) => {
         }
     });
 });
-
+// test
 // Серверди күйгүзүү
 app.listen(PORT, () => {
     console.log(`Сервер иштеди: http://localhost:${PORT}`);
