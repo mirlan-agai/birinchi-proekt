@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <title>Катталуу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Катталуу</h2>
+        <form action="/register" method="POST">
+            <input type="text" name="firstName" placeholder="Аты" required>
+            <input type="text" name="lastName" placeholder="Фамилия" required>
+            <input type="text" name="username" placeholder="Логин (латиница)" pattern="[A-Za-z0-9]+" required>
+            <input type="password" name="password" placeholder="Пароль" required>
+            <input type="tel" name="phone" placeholder="Телефон номер" required>
+            <button type="submit">Катталууну аяктоо</button>
+        </form>
+        <p><a href="index.html">Артка кадам</a></p>
+    </div>
+</body>
+</html>
